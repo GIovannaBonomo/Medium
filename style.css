@@ -10,7 +10,8 @@ body
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: space-between; 
+        justify-content: space-between;
+        box-shadow: 0px 5px 10px lightgray;s
     }
 
 .logo
@@ -22,10 +23,10 @@ body
 .topbar {
     display: flex;
     margin-right: 90px;
-    width: 18%;
-    justify-content: space-around;
+    width: 100%;
     height: 30px;
     align-items: center;
+    justify-content: flex-end;
 }
 
 button {
@@ -35,7 +36,7 @@ button {
     border-radius: 50%;
     width: 30px;
     height: 30px;
-}
+    }
 
 input {
     border-radius: 30px;
@@ -46,26 +47,23 @@ input {
         height: 500%;
         width: 100%;
         display: flex;    
-        background: linear-gradient(180deg, rgb(227 227 227) 0%, rgba(255, 255, 255, 1) 100%);
 }
 
 .main {
     width: 70%;
     border-right:gray solid 1px;
     font-family: Arial, Helvetica, sans-serif;
-    display: flex;
+    
     padding-top: 60px;
     height: 500%;
 }
 
-.sidebar {
-    width: 30%;
-}
+
 
 .following  {
     font-weight: bold;
     color: gray;
-    margin-left: 140px;
+    margin-left: 4px;
     margin-right: 40px;
 }
 
@@ -76,6 +74,147 @@ input {
 .topmenu {
     display: flex;
     border-bottom:rgb(179, 179, 179) solid 1px;
-    margin-left: 160px;
-    width: 80%;
+    margin-left: 60px;
+    width: 88%;
+}
+
+.logo2 {
+    height: 30px;
+    width: auto;
+    margin-left: 60px;
+    margin-top: 40px;
+    border-radius: 4px;
+    margin-right: 20px;
+}
+
+.container {
+    display: flex;
+    height: 100px;
+    width: 100%;
+}
+
+span {
+    color: grey;
+    margin: 5px;
+}
+
+.text1 {
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    margin-top: 27px;
+}
+
+.text2 {
+    margin-left: 60px;
+    margin-top: -18px;
+    font
+}
+
+.text3 {
+    color: gray;
+    width: 81%;
+    margin-left: 60px;
+    margin-top: -11px;
+    margin-right: 113px;
+}
+
+.text4 {
+    margin-left: 60px;
+    font-size: 12px;
+}
+#react {
+    width: 46px;
+    background-color: #dfdfdf;
+    border: none;
+    border-radius: 44px;
+    height: 18px;
+}
+
+.foto1 {
+    height: 170px;
+    width: auto;
+    margin-right: 45px;
+    margin-top: -41px;
+}
+.container2 {
+    display: flex;
+}
+.icon {
+    margin-left: 104px;
+    color: black;
+}
+.sidebar {
+    width: 30%;
+    margin-left: 40px;
+}
+#sidebar {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    border-bottom: rgb(222, 222, 222) solid 1px;
+    width: 90%;   
+}
+.threeicon {
+    width: 100px;
+    padding-top: 50px;
+    padding-bottom: 0px ;
+}
+.text5 {
+    padding-top: 10px;
+    padding-left: 50px;
+    padding-right: 30px;
+    text-align: center;
+}
+.Connect {
+    background-color: white;
+    border: solid 1px lightgray;
+    width: 150px;
+    border-radius: 30px;
+    color: black;
+    font-size: 80%;
+    display: flex;
+    align-items: center;
+}
+.twitter {
+    width: 20px;
+}
+
+#maybe {
+    padding: 30px;
+    text-decoration: underline;
+    font-size: 15px;
+}
+
+#topics {
+   margin-top: 50px;
+}
+
+.buttonSection {
+    background-color: lightgray;
+    color: black;
+    width: auto;
+    border-radius: 30px;
+    padding: 8px;
+    margin-top: 10px;  
+  }
+
+.content {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.follow {
+    display: flex;
+        align-items: center;
+        margin-top: 15px;
+        justify-content: space-around;
+        margin-left: -14px;
+}
+
+#button {
+    background-color: white;
+    border: black 1px solid;
+    color: black;
+    width: auto;
+    border-radius: 30px;
 }
